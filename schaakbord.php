@@ -12,14 +12,14 @@
 <?php
 for ($row=1; $row <= 8; $row++) {
     echo "<tr>";
-        for($col=1; $col <= 8; $col++) {
-            $total = $row + $col;
-            if ($total%2 == 0) {
-                echo "<td height=40px width=40px bgcolor=#FFFFFF></td>";
-            } else {
-                echo "<td height=40px width=40px bgcolor=#000></td>";
-            }
+    for($col=1; $col <= 8; $col++) {
+        $total = $row + $col;
+        if ($total%2 == 0) {
+            echo "<td height=40px width=40px bgcolor=#FFFFFF></td>";
+        } else {
+            echo "<td height=40px width=40px bgcolor=#000></td>";
         }
+    }
     echo "</tr>";
 }
 ?>
